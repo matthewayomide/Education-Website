@@ -709,14 +709,3 @@ animation-duration: 1s;
 }
 
 
-marquee{
-    margin-top: 7rem;
-    background: #6c63ff;
-    display: flex;
-    align-items:center ;
-    justify-content: center;
-}
-.marquee_img{
-    width: 100px;
-    display: inline-block;
-}
