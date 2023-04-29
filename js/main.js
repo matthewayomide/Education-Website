@@ -42,3 +42,60 @@ menu.classList.remove('active');
 CloseBtn.classList.remove('active');
 menuBtn.classList.remove('active');
 })
+
+
+// Animate on Scroll
+
+
+$(document).ready(function(){
+    $(".categories").waypoint(function(){
+        $('.categories_container').addClass('animate__animated animate__slideInLeft')
+        },
+        { offset:'50%'
+
+        });
+
+        $(".courses").waypoint(function(){
+            $('.course').addClass('animate__animated animate__zoomIn')
+            },
+            { offset:'50%'
+    
+            });
+
+            $(".faqs").waypoint(function(){
+                $('.faqs_animate').addClass('animate__animated animate__rubberBand')
+                },
+                { offset:'40%'
+        
+                });
+
+            $(".faqs").waypoint(function(){
+                $('.faqs_container').addClass('animate__animated animate__fadeInUp')
+                },
+                { offset:'50%'
+        
+                });
+    
+                $(".testimonials_container").waypoint(function(){
+                    $('.testimonial_anime').addClass('animate__animated animate__fadeInUp')
+                    },
+                    { offset:'50%'
+            
+                    });
+
+                    $(".testimonials_container").waypoint(function(){
+                        $('.swiper-wrapper').addClass('animate__animated animate__fadeInLeft')
+                        },
+                        { offset:'50%'
+                
+                        });
+        
+                        $("footer").waypoint(function(){
+                            $('.footer_container').addClass('animate__animated animate__fadeInLeft')
+                            },
+                            { offset:'50%'
+                    
+                            });
+
+})
+
